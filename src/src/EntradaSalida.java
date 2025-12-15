@@ -7,5 +7,9 @@ public class EntradaSalida {
         Scanner sc = new Scanner(System.in);
         return sc.nextLine();
     }
-
+    public static char entradaCaracter(){
+        Scanner sc = new Scanner(System.in);
+        String caracter = sc.nextLine();
+        return caracter.charAt(0);
+    }
 }
